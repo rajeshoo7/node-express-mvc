@@ -11,7 +11,7 @@ const Model = require('../models/developer.js')
 const find = require('lodash.find')
 const notfoundstring = 'Could not find developer with id='
 
-// RESPOND WITH JSON DATA  --------------------------------------------
+// RESPOND WITH JSON DATA  -- ------------------------------------------
 
 // GET all JSON
 api.get('/findall', (req, res) => {
